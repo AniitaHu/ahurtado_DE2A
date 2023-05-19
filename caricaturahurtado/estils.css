@@ -1,0 +1,369 @@
+body {
+  background-color: #A66171;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 700px;
+  height: 1000px;
+  background-color: ;
+  position: relative;
+}
+
+
+.cara{
+  height: 660px;
+  width: 510px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 74%, 64% 100%, 37% 100%, 0 73%, 0% 20%);
+  background-color: #d3a17f;
+  border-radius: 100% 100% 99% 99%;
+  float: left;
+  z-index: 4;
+  margin-top: 50px;
+}
+
+.pelo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: -535px;
+  z-index: 1;
+  margin-top: 98px;
+
+}
+
+#pelo1{
+  background-color: #4b2614;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+
+}
+
+#pelo2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background-color: #432114;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+
+}
+#mechon1{
+  background-color: #A1431B;
+  height: 730px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+#pelo3{
+  background-color: #4b2614;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+}
+
+#pelo4{
+  background-color: #432114;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+}
+
+#pelo5{
+  background-color: #4b2614;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+}
+
+#pelo6{
+  background-color: #432114;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+}
+
+
+#pelo7{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background-color: #4b2614;
+  border-radius: 20px;
+  height: 750px;
+  width: 80px;
+}
+
+#mechon2{
+  background-color: #A1431B;
+  margin-top: 230px;
+  height: 500px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.flequillo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  z-index: 5;
+  background-color: #4b2614;
+  border-radius: 20px;
+  height: 90px;
+  width: 335px;
+  position: absolute;
+
+
+}
+
+#flequi1{
+transform: rotate(20deg);
+left:322px;
+top:51px;
+}
+
+#flequi2{
+transform:scaleX(-1);
+transform: rotate(-20deg);
+left: 19px;
+top:53px;
+}
+
+.cejas{
+  position: relative;
+  height: 40px;
+  width: 170px;
+  float: left;
+  top:110px;
+
+}
+
+#ceja1{
+  left: 70px;
+  border-radius: 84% 16% 67% 33% / 100% 49% 51% 0% ;
+  background-color: #724f34;
+  transform: rotate(-5deg);
+
+}
+
+#ceja2{
+  margin-left: 100px;
+  border-radius: 24% 76% 54% 46% / 49% 100% 0% 51% ;
+  background-color: #724f34;
+  transform: rotate(5deg);
+
+}
+
+.liner{
+  height: 160px;
+  width: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+#liner1{
+  margin-left: 62px;
+  margin-top: 170px;
+  border-radius: 53% 47% 79% 21% / 85% 85% 15% 15%;
+
+}
+
+#liner2{
+  margin-left: 292px;
+  margin-top: -2px;
+  border-radius: 51% 49% 27% 73% / 86% 86% 14% 14%;
+
+}
+
+.ojos {
+  height: 150px;
+  width: 150px;
+  background-color: #FFFFFF;
+  float:left;
+  position: relative;
+
+}
+
+#ojo1{
+  margin-top: 261px;
+  border-radius: 53% 47% 79% 21% / 85% 85% 15% 15%;
+  margin-left: 70px;
+  top:-121px;
+}
+
+#ojo2{
+  margin-top: 8px;
+  border-radius: 51% 49% 27% 73% / 86% 86% 14% 14%;
+  margin-left: 65px;
+}
+
+.iris{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  background-color: #6A2415;
+  border-radius: 100px;
+}
+
+#iris1{
+  margin-left: 105px;
+  top:230px;
+
+}
+
+#iris2{
+  margin-left: 305px;
+  top: 58px;
+}
+
+.pupila{
+  height: 55px;
+  width: 55px;
+  position: relative;
+  background-color: black;
+  border-radius: 100px;
+}
+
+#pupila1{
+  margin-left: 125px;
+  top:160px;
+}
+
+#pupila2{
+  margin-left: 319px;
+  top:-12px;
+}
+
+.brillo{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+}
+
+#brillo1{
+  margin-left: 120px;
+  top:110px;
+}
+
+#brillo2{
+  margin-left: 356px;
+  top:-60px;
+}
+
+#nariz{
+  height: 50px;
+  width: 60px;
+  opacity: 50%;
+  border-radius: 100%;
+  background: rgb(234,194,166);
+  background: linear-gradient(172deg, rgba(234,194,166,1) 0%, rgba(144,88,58,1) 100%);
+  position: relative;
+  top: 47px;
+  left:222px;
+
+}
+
+.rubor{
+  height: 136px;
+  width: 180px;
+  position: relative;
+  opacity: 20%;
+  background: rgb(180,107,92);
+  background: radial-gradient(circle, rgba(180,107,92,1) 0%, rgba(211,161,127,1) 100%);
+  border-radius: 100px;
+  float: left;
+
+}
+
+#pomulo1{
+  transform: rotate(-45deg);
+  top:-40px;
+  left: 100px;
+}
+
+#pomulo2{
+  transform: rotate(45deg);
+  top:-174px;
+  left: 9px;
+
+}
+
+.boca{
+  background-color: #c67c6b;
+  height: 80px;
+  width: 150px;
+  position: relative;
+
+
+}
+
+#boca1{
+  border-radius: 52% 48% 46% 54% / 15% 21% 79% 85% ;
+  background-color:#b2685b;
+  height: 50px;
+  width: 134px;
+  top:124px;
+  left:190px;
+
+}
+
+#boca2{
+  background-color: #bf7467;
+  height: 33px;
+  width: 70px;
+  border-radius: 100%;
+  left:190px;
+  top:62px;
+
+}
+
+#boca3{
+  background-color: #bf7467;
+  height: 33px;
+  width: 70px;
+  border-radius: 100%;
+  top:30px;
+  right: -255px;
+
+}
+
+.pendiente{
+  height: 15px;
+  width: 15px;
+  border-radius: 100px;
+  border: 15px solid grey;
+  position: relative;
+}
+
+#pendiente1{
+left:-15px;
+top:-194px;
+}
+
+#pendiente2{
+left:480px;
+top:-237px;
+}
+#menton{
+  height: 79px;
+  width: 115px;
+  position: relative;
+  opacity: 20%;
+  background: rgb(180,107,92);
+  background: radial-gradient(circle, rgba(180,107,92,1) 0%, rgba(211,161,127,1) 100%);
+  border-radius: 100px;
+  left: 202px;
+  top:71px;
+}
